@@ -1,0 +1,313 @@
+.bg-pink {
+  background: #f5989d;
+}
+
+.bg-purple {
+  background: #615f7d;
+}
+
+.bg-green {
+  background: #82ca9c;
+}
+
+.bg-img1 {
+  background: url(/img/oclbg.png) no-repeat center/cover;
+}
+
+.bg-img2 {
+  background: url(/img/seewhybg.png) no-repeat center/cover;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+#hero {
+  background: url(/img/banner.png) no-repeat center/cover;
+}
+
+#hero .hero-content {
+  padding: 30rem 0;
+}
+
+#hero .hero-content h1 {
+  font-size: 6rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+#hero .hero-content p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#ssn {
+  padding: 5.5rem;
+}
+
+#ssn h3 {
+  font-size: 4rem;
+  color: #222626;
+}
+
+#ssn p {
+  font-size: 1.4rem;
+  color: #959595;
+  padding: 1rem 0;
+}
+
+#ssn .img {
+  margin-top: -76.4rem;
+}
+
+#card {
+  padding: 5.5rem;
+}
+
+#card .card-box {
+  padding: 5.1rem 4.4rem;
+  position: relative;
+}
+
+#card .card-box .h-icon {
+  position: absolute;
+  bottom: 10%;
+  right: 6%;
+}
+
+#card .card-box h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+#card .card-box p {
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 4.1rem 0;
+}
+
+#card .card-box a {
+  font-size: 1.4rem;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#details {
+  padding: 5.5rem;
+}
+
+#details h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #222626;
+  margin-bottom: 6.9rem;
+}
+
+#details h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222626;
+  margin-bottom: 3.1rem;
+}
+
+#details p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #959595;
+}
+
+#power {
+  background: url(/img/powerbg.png) no-repeat center/cover;
+}
+
+#power .power-content {
+  padding: 45rem 0 15rem;
+}
+
+#power .power-content h3 {
+  font-size: 6rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+#power .power-content h3 span {
+  display: block;
+}
+
+#power .power-content p {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-top: 3rem;
+  max-width: 43rem;
+  text-align: justify;
+}
+
+#rtgb {
+  padding: 5.5rem;
+  color: #fff;
+}
+
+#rtgb h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 6.9rem;
+}
+
+#rtgb h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 3.1rem;
+}
+
+#rtgb p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+#pack {
+  padding: 10rem 0;
+}
+
+#pack h3 {
+  padding: 2.3rem 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+#pack p {
+  font-size: 1.4rem;
+  color: #959595;
+  margin-bottom: 3rem;
+}
+
+#pack .pack-box {
+  padding: 5rem;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#pack .pack-box .icon {
+  margin-top: 1.5rem;
+  display: block;
+}
+
+#pack .pack-box .icon i {
+  margin-right: 1.5rem;
+  color: #c5c5c5;
+  font-size: 2.8rem;
+}
+
+#pack .pack-box:hover {
+  background: #fff;
+  -webkit-box-shadow: 2px 4px 25px #959595;
+          box-shadow: 2px 4px 25px #959595;
+  border-radius: 1%;
+}
+
+footer {
+  padding: 12.8rem 0;
+  background: #192431;
+  color: #fff;
+}
+
+footer h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+footer p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 1.5rem 0 7rem;
+}
+
+footer .form p {
+  font-size: 1.2rem;
+  color: #57697f;
+}
+
+footer .link ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .link ul li {
+  font-size: 1.3rem;
+  padding: 2px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+  #ssn .img {
+    margin-top: -64.4rem;
+  }
+  #card .card-box .gtn {
+    padding-bottom: 1.8rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  #ssn .img {
+    margin-top: -47.4rem;
+  }
+  #card .card-box .gtn {
+    padding-bottom: 7.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #ssn .img {
+    margin-top: -26.4rem;
+  }
+  #card .card-box p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero .hero-content {
+    padding: 20rem 3rem;
+  }
+  #hero .hero-content h1 {
+    font-size: 5rem;
+  }
+  #card .card-box h3 {
+    font-size: 1.5rem;
+  }
+  #card .card-box p,
+  #card .card-box a {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  #ssn .img {
+    display: none;
+  }
+  #power .power-content {
+    padding: 40rem 0 10rem;
+    margin-left: 5rem;
+  }
+  #power .power-content h3 {
+    font-size: 4rem;
+  }
+  .pack-box {
+    background: #fff;
+    margin-bottom: 5rem;
+    -webkit-box-shadow: 2px 4px 25px #959595;
+            box-shadow: 2px 4px 25px #959595;
+    border-radius: 1%;
+  }
+  footer {
+    text-align: center;
+  }
+}

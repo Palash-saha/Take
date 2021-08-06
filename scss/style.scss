@@ -1,0 +1,238 @@
+@import "config";
+@import "utilities";
+
+// ======Global=======
+
+html,
+body {
+  font-size: 62.5%;
+  font-family: $font-stack;
+  overflow-x: hidden;
+}
+
+// =======HERO======
+
+#hero {
+  background: url(/img/banner.png) no-repeat center / cover;
+
+  .hero-content {
+    padding: 30rem 0;
+
+    h1 {
+      font-size: 6rem;
+      font-weight: 300;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #fff;
+    }
+  }
+}
+
+// =======START SOMETHING NEW======
+
+#ssn {
+  padding: 5.5rem;
+
+  h3 {
+    font-size: 4rem;
+    color: $text-dark;
+  }
+
+  p {
+    font-size: 1.4rem;
+    color: $text-light;
+    padding: 1rem 0;
+  }
+  .img {
+    margin-top: -76.4rem;
+  }
+}
+
+// ==========CARD========
+
+#card {
+  padding: 5.5rem;
+
+  .card-box {
+    padding: 5.1rem 4.4rem;
+    position: relative;
+    .h-icon {
+      position: absolute;
+      bottom: 10%;
+      right: 6%;
+    }
+    h3 {
+      font-size: 3rem;
+      font-weight: 300;
+      color: #fff;
+    }
+    p {
+      font-size: 1.4rem;
+      color: #fff;
+      margin: 4.1rem 0;
+    }
+    a {
+      font-size: 1.4rem;
+      color: #fff;
+      display: block;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+}
+// =========LOOK AT DETAILS======
+
+#details {
+  padding: 5.5rem;
+
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: $text-dark;
+    margin-bottom: 6.9rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: $text-dark;
+    margin-bottom: 3.1rem;
+  }
+  p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: $text-light;
+  }
+}
+
+// =======MORE POWER========
+
+#power {
+  background: url(/img/powerbg.png) no-repeat center / cover;
+
+  .power-content {
+    padding: 45rem 0 15rem;
+
+    h3 {
+      font-size: 6rem;
+      font-weight: 300;
+      color: #fff;
+
+      span {
+        display: block;
+      }
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #fff;
+      margin-top: 3rem;
+      max-width: 43rem;
+      text-align: justify;
+    }
+  }
+}
+
+// / ====REASONS TO GET ON BOARD======
+
+#rtgb {
+  padding: 5.5rem;
+  color: #fff;
+
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 6.9rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 3.1rem;
+  }
+  p {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+// =====PACKAGES======
+
+#pack {
+  padding: 10rem 0;
+
+  h3 {
+    padding: 2.3rem 0;
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  p {
+    font-size: 1.4rem;
+    color: $text-light;
+    margin-bottom: 3rem;
+  }
+  .pack-box {
+    padding: 5rem;
+    transition: all linear 0.3s;
+
+    .icon {
+      margin-top: 1.5rem;
+      display: block;
+
+      i {
+        margin-right: 1.5rem;
+        color: #c5c5c5;
+        font-size: 2.8rem;
+      }
+    }
+  }
+  .pack-box:hover {
+    background: #fff;
+    box-shadow: 2px 4px 25px $text-light;
+    border-radius: 1%;
+  }
+}
+
+// ============== FOOTER===========
+
+footer {
+  padding: 12.8rem 0;
+  background: $dark-blue;
+  color: #fff;
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 1.5rem 0 7rem;
+  }
+
+  .form p {
+    font-size: 1.2rem;
+    color: #57697f;
+  }
+
+  .link {
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        font-size: 1.3rem;
+        padding: 2px 0;
+      }
+    }
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@import "responsive";

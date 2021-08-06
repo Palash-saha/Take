@@ -1,0 +1,95 @@
+// ========== MEDIA QUERIES =============
+
+@media (max-width: 1400px) {
+  #ssn {
+    .img {
+      margin-top: -64.4rem;
+    }
+  }
+  #card {
+    .card-box {
+      .gtn {
+        padding-bottom: 1.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #ssn {
+    .img {
+      margin-top: -47.4rem;
+    }
+  }
+  #card {
+    .card-box {
+      .gtn {
+        padding-bottom: 7.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #ssn {
+    .img {
+      margin-top: -26.4rem;
+    }
+  }
+
+  #card {
+    .card-box {
+      p {
+        font-size: 1rem;
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    .hero-content {
+      padding: 20rem 3rem;
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+  #card {
+    .card-box {
+      h3 {
+        font-size: 1.5rem;
+      }
+      p,
+      a {
+        font-size: 1rem;
+        margin: 1rem 0;
+      }
+    }
+  }
+  #ssn {
+    .img {
+      display: none;
+    }
+  }
+  #power {
+    .power-content {
+      padding: 40rem 0 10rem;
+      margin-left: 5rem;
+
+      h3 {
+        font-size: 4rem;
+      }
+    }
+  }
+  .pack-box {
+    background: #fff;
+    margin-bottom: 5rem;
+    box-shadow: 2px 4px 25px $text-light;
+    border-radius: 1%;
+  }
+  footer {
+    text-align: center;
+  }
+}
